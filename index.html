@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Chá de Bebê 🎁</title>
+
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- BOTÃO ADMIN -->
+  <a href="admin.html" class="admin-link">
+    Área Admin
+  </a>
+
+  <div class="container">
+
+    <h1>
+      Chá de Bebê do
+      <span class="nome-bebe">Ángel Osny</span>
+      <span class="emoji-bebe">👶🏾</span>
+    </h1>
+
+    <p class="subtitulo">
+      Selecione seu nome na lista abaixo
+    </p>
+
+    <select id="nome" required>
+
+      <option value="">Selecione seu nome</option>
+
+      <option value="Luciana Maia">Luciana Maia</option>
+      <option value="Beto">Beto</option>
+      <option value="Alice Maia">Alice Maia</option>
+      <option value="Gabrielle Maia">Gabrielle Maia</option>
+      <option value="Guilherme Luz">Guilherme Luz</option>
+      <option value="Mariana Maia">Mariana Maia</option>
+      <option value="Henrique">Henrique</option>
+      <option value="Fabiana Maia">Fabiana Maia</option>
+      <option value="Ana Clara Maia">Ana Clara Maia</option>
+      <option value="Reinaldo Ferreras">Reinaldo Ferreras</option>
+      <option value="Lucio Maia">Lucio Maia</option>
+      <option value="Gabriella Sousa">Gabriella Sousa</option>
+      <option value="Vó Maria">Vó Maria</option>
+      <option value="Cristiane Donato">Cristiane Donato</option>
+      <option value="Cristina Donato">Cristina Donato</option>
+      <option value="Gabriel Donato">Gabriel Donato</option>
+      <option value="Larissa Donato">Larissa Donato</option>
+      <option value="Lucas Magalhães">Lucas Magalhães</option>
+      <option value="Eduardo Magalhães">Eduardo Magalhães</option>
+      <option value="Ana Neri">Ana Neri</option>
+      <option value="Eduardo Sanshez">Eduardo Sanshez</option>
+      <option value="Monike Sanshez">Monike Sanshez</option>
+      <option value="Lucas Henry">Lucas Henry</option>
+      <option value="Carol Henry">Carol Henry</option>
+      <option value="Waba">Waba</option>
+      <option value="Regis">Regis</option>
+      <option value="Zé">Zé</option>
+      <option value="Gi Cisi">Gi Cisi</option>
+      <option value="Gutti">Gutti</option>
+      <option value="Bill">Bill</option>
+      <option value="Jorjão">Jorjão</option>
+      <option value="Arthur Mendes">Arthur Mendes</option>
+      <option value="Amauri">Amauri</option>
+      <option value="Lucas Mergel">Lucas Mergel</option>
+      <option value="Bea Mergel">Bea Mergel</option>
+      <option value="André Boy">André Boy</option>
+      <option value="Emilene Boy">Esposa Boy</option>
+      <option value="Pillas">Pillas</option>
+      <option value="Bru Gepes">Bru Gepes</option>
+      <option value="Lucas Vilela">Lucas Vilela</option>
+      <option value="Flavia Meira">Flavia Meira</option>
+      <option value="Fabiana Meira">Fabiana Meira</option>
+
+    </select>
+
+    <button onclick="confirmar()">
+      Confirmar presença
+    </button>
+
+    <p id="resultado"></p>
+
+  </div>
+
+  <script type="module" src="script.js"></script>
+
+</body>
+</html>

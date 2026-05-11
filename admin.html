@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Área Admin</title>
+
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+  <a href="index.html" class="voltar-link">
+    Voltar
+  </a>
+
+  <div class="admin-container">
+
+    <div id="loginArea" class="admin-card">
+
+      <h1>Área Admin</h1>
+
+      <p class="subtitulo">
+        Faça login para acessar o painel
+      </p>
+
+      <input type="text" id="usuario" placeholder="Usuário">
+
+      <input type="password" id="senha" placeholder="Senha">
+
+      <button id="btnLogin">
+        Entrar
+      </button>
+
+      <p id="erroLogin"></p>
+
+    </div>
+
+    <div id="painelArea" class="admin-card painel" style="display: none;">
+
+      <h1>Painel Admin</h1>
+
+      <div class="topo-painel">
+
+        <p id="totalConfirmados">
+          Total: 0
+        </p>
+
+        <button id="btnSair" class="botao-sair">
+          Sair
+        </button>
+
+      </div>
+
+      <button id="btnAtualizar">
+        Atualizar lista
+      </button>
+
+      <div id="listaConfirmados" class="lista-confirmados"></div>
+
+    </div>
+
+  </div>
+
+  <script type="module" src="admin.js"></script>
+
+</body>
+</html>
